@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <h1>Hello {{name}}</h1>
+    <img src="https://c1.staticflickr.com/9/8311/8048336571_4805e2f0a9_b.jpg" style="width:50px;height:50px;border-radius:50%">
+
+    <hr>
+    <div id="" style="text-align:left">
+        <h4><b>Your Insur Profile:</b></h4>
+        <ul style="list-style:none">
+            <li>Monthly premium: Rs 150</li>
+            <li>Max-Claim: Rs 100000 *</li>
+            <li>History: Is a mystery</li>
+            <p style="font-size:8px">claims coverage is limited to your plan. For greater coverage or higher max-claim, upgrade</p>
+        </ul>
+    </div>
+    <hr>
+    <button>Claim</button>
+    <button>Upgrade</button>
+    </form>
+
+{% endblock %}
