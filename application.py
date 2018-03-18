@@ -130,9 +130,9 @@ def register():
 
         client = Client(account_sid, auth_token)
 
-            message = client.messages.create(
+        message = client.messages.create(
             to="+31614657384",
-        from_="+3197014200259",
+            from_="+3197014200259",
             body="Thanks for registering with Insur. Your insurance info will be sent via SMS regularly. For more details call +180 555 555 !")
 
         #print(message.sid)
